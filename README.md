@@ -21,6 +21,7 @@ The dataset drug_safety.csv includes information on adverse effects which are re
 
 ## **Inspecting Whether Age is Normally Distributed**
  ### Histogram Visualization
+ ![Age Distribution Histogram](https://github.com/VedaVangala/Drugsafety_Hypothesis/blob/main/plot.png)
  - Created histograms to inspect the distribution of ages for both Drug and Placebo groups.
  - *Result*: The left-skewed age distribution suggests that a significant portion of the participants in the study are older, with fewer participants in the younger age groups. 
  ### Mann-Whitney U Test
