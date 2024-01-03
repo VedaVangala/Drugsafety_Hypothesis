@@ -10,26 +10,26 @@ The dataset drug_safety.csv includes information on adverse effects which are re
 
 
 ## **Two-Sample Proportions Z-Test**
-- Conducted a two-sample proportions Z-test to compare adverse effect proportions between the Drug and Placebo groups.
-- *Result*: No significant difference in adverse effect proportions (p-value = 0.9639).
+ - Conducted a two-sample proportions Z-test to compare adverse effect proportions between the Drug and Placebo groups.
+ - *Result*: No significant difference in adverse effect proportions (p-value = 0.9639).
 
 
 ## **Association between Adverse Effects and Groups (Chi-Square Test)**
-- Investigated the association between the number of adverse effects (num_effects) and treatment groups (trx) using a chi-square test.
-- *Result*: No significant association between num_effects and trx groups (p-value = 0.6150).
+ - Investigated the association between the number of adverse effects (num_effects) and treatment groups (trx) using a chi-square test.
+ - *Result*: No significant association between num_effects and trx groups (p-value = 0.6150).
 
 
-## **Inspecting Whether Age is Normally Distributed**##
-### Histogram Visualization
-- Created histograms to inspect the distribution of ages for both Drug and Placebo groups.
-- *Result*: The left-skewed age distribution suggests that a significant portion of the participants in the study are older, with fewer participants in the younger age groups. 
-### Mann-Whitney U Test
-- Conducted a Mann-Whitney U test to determine if there's a significant difference in age between the Drug and Placebo groups.
-- *Result*: No significant difference in age between the groups (p-value = 0.256963).
+## **Inspecting Whether Age is Normally Distributed**
+ ### Histogram Visualization
+ - Created histograms to inspect the distribution of ages for both Drug and Placebo groups.
+ - *Result*: The left-skewed age distribution suggests that a significant portion of the participants in the study are older, with fewer participants in the younger age groups. 
+ ### Mann-Whitney U Test
+ - Conducted a Mann-Whitney U test to determine if there's a significant difference in age between the Drug and Placebo groups.
+ - *Result*: No significant difference in age between the groups (p-value = 0.256963).
 
 
 ## **Overall Findings**
 
-### Adverse Effects: No significant difference in proportions between Drug and Placebo groups.
-### Association: No significant association between num_effects and trx groups.
-### Age: No significant difference in age between Drug and Placebo groups.
+ ### Adverse Effects: No significant difference in proportions between Drug and Placebo groups.
+ ### Association: No significant association between num_effects and trx groups.
+ ### Age: No significant difference in age between Drug and Placebo groups.
