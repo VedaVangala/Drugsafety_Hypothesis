@@ -6,7 +6,7 @@ Explore and analyze a drug safety dataset from a randomized controlled trial con
 
 
 ## Data Exploration:
-The dataset drug_safety.csv was obtained from Hbiostat courtesy of the Vanderbilt University Department of Biostatistics. The dataset includes information on adverse effects which are required to test drug safety. It contained five adverse effects: headache, abdominal pain, dyspepsia, upper respiratory infection, chronic obstructive airway disease, demographic data, vital signs, lab measures, etc. For this project, the dataset has been modified to reflect the presence and absence of adverse effects adverse_effects and the number of adverse effects in a single individual num_effects. Ratio of drug to placebo observations in this trial is 2 to 1.
+The dataset drug_safety.csv includes information on adverse effects which are required to test drug safety. It contained five adverse effects: headache, abdominal pain, dyspepsia, upper respiratory infection, chronic obstructive airway disease, demographic data, vital signs, lab measures, etc. The modified dataset reflects the presence and absence of adverse effects adverse_effects and the number of adverse effects in a single individual num_effects. Ratio of drug to placebo observations in this trial is 2 to 1.
 
 
 ## **Two-Sample Proportions Z-Test**
